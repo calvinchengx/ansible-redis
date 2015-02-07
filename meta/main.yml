@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  author: Calvin Cheng
+  description: Redis for archlinux
+  company: N/A 
+  license: MIT
+  min_ansible_version: 1.4
+  platforms:
+    - name: Arch Linux
+  categories:
+    - database:nosql 
+dependencies: []

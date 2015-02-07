@@ -1,0 +1,8 @@
+---
+- name: Install redis 
+  sudo: true
+  pacman: name=redis state=present
+
+- name: Ensure that redis is running
+  sudo: true
+  service: name=redis state=started enabled=yes
